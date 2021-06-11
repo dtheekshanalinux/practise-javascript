@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container-1">
+   <h2>Challenge : 1 your age in days</h2>
+        <div class="flex-box-container-1">
+            <div>
+                <button type="button" class="btn btn-primary" onclick="ageInDays()">click me</button>
+            </div>
+            <div>
+                <button type="button" class="btn btn-danger" onclick="reset()">reset</button>
+            </div>
+        </div>
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+        </div>
+    </div>
+    <div class="container-1 container-2">
+        <h2>Lion generator</h2>
+        <button class="btn btn-success" id="lion-generator" onclick="generatelion()">Generate linos</button>
+        <button class="btn btn-danger" onclick="resetlion()">clear</button>
+        <div class="flex-box-container-2" id="flex-lion-gen">
+        </div>
+    </div>
+    <div class="container-3">
+        <h2>Rock,paper,scissors</h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock" src="images/rock.jpeg" width="150" height="150" alt="" onclick="rpsGame(this)">
+            <img id="paper" src="images/paper.jpeg" width="150" height="150" alt="" onclick="rpsGame(this)">
+            <img id="scissors" src="images/scissor.png" width="150" height="150" alt="" onclick="rpsGame(this)">
+
+        </div>
+    </div>
+    <div class="container-4">
+        <h2 id="change-my-color">Change the color of buttons</h2>
+        <div class="flex-box-pick-color">
+            <form action="">
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                <option value="random">Random</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="reset">Reset</option>
+                </select>
+            </form>
+            <button class="btn btn-primary"> wee</button>
+            <button class="btn btn-danger"> wee</button>
+            <button class="btn btn-warning"> wee</button>
+            <button class="btn btn-success"> wee</button>
+
+        </div>
+    </div>
+<script src="style/home.js">
+    </script>
+</body>
+</html>

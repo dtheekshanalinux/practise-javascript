@@ -1,0 +1,29 @@
+.container-1, .container-3, .container-4{
+    border: 1px solid black;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+.flex-box-container-1{
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    flex-direction:row;
+}
+.flex-box-container-2, .flex-box-container-1 div, .flex-box-rps, .flex-box-pick-color {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+    border: 1px solid black;
+    align-items: center;
+}
+.flex-box-container-2 img{
+    border: 1px solid green;
+    padding: 10px;
+}
+.flex-box-rps img:hover{
+    box-shadow: 0px 0px 59px -4px rgba(0,0,0,1);
+}
